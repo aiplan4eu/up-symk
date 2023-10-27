@@ -115,11 +115,9 @@ class SymKOptimalPDDLPlanner(SymKMixin, PDDLAnytimePlanner):
         supported_kind.set_quality_metrics("ACTIONS_COST")
         supported_kind.set_actions_cost_kind("STATIC_FLUENTS_IN_ACTIONS_COST")
         supported_kind.set_actions_cost_kind("INT_NUMBERS_IN_ACTIONS_COST")
-        supported_kind.set_actions_cost_kind("REAL_NUMBERS_IN_ACTIONS_COST")
         supported_kind.set_quality_metrics("PLAN_LENGTH")
         supported_kind.set_quality_metrics("OVERSUBSCRIPTION")
         supported_kind.set_oversubscription_kind("INT_NUMBERS_IN_OVERSUBSCRIPTION")
-        supported_kind.set_oversubscription_kind("REAL_NUMBERS_IN_OVERSUBSCRIPTION")
 
         # Attempt to set the supported fluents type of "DERIVED_FLUENTS" (depends on UP version)
         if "FLUENTS_TYPE" in FEATURES and "DERIVED_FLUENTS" in FEATURES["FLUENTS_TYPE"]:
