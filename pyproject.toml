@@ -1,11 +1,11 @@
 [project]
 name="up_symk"
-version="1.4.1"
+version="1.4.2"
 description="Unified Planning Integration of the SymK planner"
 readme = {text = """
 This package makes the [SymK](https://github.com/speckdavid/symk) planner available in the [unified_planning library](https://github.com/aiplan4eu/unified-planning) by the [AIPlan4EU project](https://www.aiplan4eu-project.eu/).
 
-You can find more information about using the SymK planner in UP on the dedicated [repository](https://github.com/speckdavid/symk), including a getting started [notebook](https://github.com/speckdavid/up-symk/blob/master/notebooks/symk_usage.ipynb).""", content-type = "text/markdown"}
+You can find more information about using the SymK planner in UP on the dedicated [repository](https://github.com/speckdavid/up-symk), including a getting started [notebook](https://github.com/speckdavid/up-symk/blob/master/notebooks/symk_usage.ipynb).""", content-type = "text/markdown"}
 requires-python = ">=3.9"
 license = {text = "GPL-3.0-only"}
 authors = [
